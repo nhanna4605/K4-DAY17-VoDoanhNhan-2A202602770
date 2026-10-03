@@ -1,3 +1,20 @@
+# Bài làm — Day 17 Memory Systems for AI Agent
+
+Võ Doãn Nhân · MSSV 2A202602770 · bài cá nhân.
+
+- `src/` đã hoàn thiện: `config.py`, `model_provider.py` (6 provider), `memory_store.py`, `agent_baseline.py`, `agent_advanced.py`, `benchmark.py`, `test_agents.py`. `data/` giữ nguyên.
+- Phân tích kết quả (Bước 8) và bonus: [`STEP8.md`](STEP8.md).
+- Chạy lại từ thư mục gốc (offline, không cần API key; `tabulate` và `python-dotenv` là tùy chọn):
+
+```bash
+python src/benchmark.py
+pytest src/test_agents.py -v
+```
+
+Bonus đã làm: **conflict handling** (correction sửa đúng dòng trong `User.md`) và **confidence threshold** (bỏ câu hỏi/câu đùa/giả định). Chế độ live chỉ bật khi `LAB_LIVE=1` và chưa được kiểm thử.
+
+---
+
 # Phase 2, Track 3, Day 17: Memory Systems for AI Agent
 
 Trong Day 17 này, các bạn sẽ tập trung vào một câu hỏi rất thực tế: làm sao để AI agent **không chỉ trả lời tốt trong một lượt chat**, mà còn **nhớ đúng thông tin quan trọng qua nhiều phiên làm việc** mà vẫn kiểm soát được chi phí token.
