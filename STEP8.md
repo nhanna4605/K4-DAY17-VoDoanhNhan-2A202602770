@@ -1,6 +1,6 @@
 # STEP 8 — Phân tích kết quả benchmark (Day 17: Memory Systems for AI Agent)
 
-Sinh viên: Võ Doãn Nhân · MSSV 2A202602770
+Sinh viên: Võ Doanh Nhân · MSSV 2A202602770
 
 Mọi số liệu dưới đây lấy từ `python src/benchmark.py` (chế độ offline, tất định: chạy hai lần trên `state/` sạch cho đúng cùng một bảng). Estimator token là `len(text)//4`, nên con số tuyệt đối chỉ có ý nghĩa **so sánh giữa hai agent**, không phải số token của một tokenizer thật.
 

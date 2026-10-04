@@ -1,6 +1,6 @@
 # Bài làm — Day 17 Memory Systems for AI Agent
 
-Võ Doãn Nhân · MSSV 2A202602770 · bài cá nhân.
+Võ Doanh Nhân · MSSV 2A202602770 · bài cá nhân.
 
 - `src/` đã hoàn thiện: `config.py`, `model_provider.py` (6 provider), `memory_store.py`, `agent_baseline.py`, `agent_advanced.py`, `benchmark.py`, `test_agents.py`. `data/` giữ nguyên.
 - Phân tích kết quả (Bước 8) và bonus: [`STEP8.md`](STEP8.md).
